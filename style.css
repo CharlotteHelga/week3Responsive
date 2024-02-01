@@ -90,4 +90,18 @@ p {
   .d-none {
     display: none !important;
   }
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+    margin: auto;
+  }
+}
+@media (max-width: 576px) {
+  .d-sm-block {
+    text-align: center !important;
+    /* display: block !important;
+    margin: auto !important; */
+    width: 100%;
+  }
 }
