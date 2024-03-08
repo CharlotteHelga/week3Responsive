@@ -126,3 +126,10 @@ p {
 .project_title {
   text-align: center;
 }
+.abtPar {
+  margin-top: 60px !important;
+}
+.picture {
+  border-radius: 15px;
+  max-width: 300px;
+}
