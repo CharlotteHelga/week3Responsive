@@ -136,8 +136,27 @@ p {
 input{
   padding-left:200px !important;
   border-radius: 5px;
+  text-align: center;
 }
 .sendBtn{
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+#message{
+  padding: 20px !important;
+  padding-left: 200px !important;
+}
+.contactForm{
+  margin-top: 30px;
+  margin-left: 100px !important;
+}
+li{
+  list-style-type: none;
+}
+.socials{
+  margin-top: 40px;
 }
