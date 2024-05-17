@@ -79,10 +79,12 @@ p {
 .about-paragraphs p {
   margin: 10px;
 }
+
 .button {
   display: flex;
   justify-content: center;
 }
+
 .email-link {
   display: flex;
   justify-content: center;
@@ -90,30 +92,37 @@ p {
   font-size: 28px;
   text-decoration: none;
 }
+
 .email-link:hover {
   text-decoration: underline;
 }
+
 @media (max-width: 576px) {
   .d-none {
     display: none !important;
   }
+
   h1,
   h2,
   h3 {
     text-align: center;
     margin: 0;
   }
+
   h1 {
     font-size: 48px;
   }
+
   h2 {
     font-size: 36px;
   }
+
   .email-link,
   h3 {
     font-size: 20px;
   }
 }
+
 @media (max-width: 576px) {
   .d-sm-block {
     text-align: center !important;
@@ -122,25 +131,31 @@ p {
     width: 100%;
   }
 }
+
 .mt-5 {
   margin-top: 20px !important;
 }
+
 .project_title {
   text-align: center;
 }
+
 .abtPar {
   margin-top: 60px !important;
 }
+
 .picture {
   border-radius: 15px;
   max-width: 300px;
 }
-input{
-  padding-left:200px !important;
+
+input {
+  padding-left: 200px !important;
   border-radius: 5px;
   text-align: center;
 }
-.sendBtn{
+
+.sendBtn {
   margin-top: 30px;
   margin-bottom: 10px;
   display: flex;
@@ -148,20 +163,54 @@ input{
   padding-left: 50px;
   padding-right: 50px;
 }
-#message{
+
+#message {
   padding: 20px !important;
   padding-left: 200px !important;
 }
-.contactForm{
+
+.contactForm {
   margin-top: 30px;
   margin-left: 100px !important;
 }
-li{
+
+li {
   list-style-type: none;
 }
-.socials{
+
+.socials {
   margin-top: 40px;
 }
-.emoji{
-  animation:  10s timing-function 3s 4s left fill-mode;
+
+.emoji:hover {
+  animation-name: wave-animation;
+  animation-duration: 3.0s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
 }
+@keyframes wave-animation {
+  0% {
+  transform: rotate( 0.0deg)
+  }
+  10% {
+  transform: rotate(14.0deg)
+  }
+  20% {
+  transform: rotate(-8.0deg)
+  }
+  30% {
+  transform: rotate(14.0deg)
+  }
+  40% {
+  transform: rotate(-4.0deg)
+  }
+  50% {
+  transform: rotate(10.0deg)
+  }
+  60% {
+  transform: rotate( 0.0deg)
+  }
+  100% {
+  transform: rotate( 0.0deg)
+  }
+  }`
