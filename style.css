@@ -6,7 +6,7 @@
 
 body {
   margin-top: 100px;
-  background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+  background-image: radial-gradient(circle, black 0%, rgb(58, 55, 55) 100%);
 }
 
 h1,
