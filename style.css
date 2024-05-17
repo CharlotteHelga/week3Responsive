@@ -6,7 +6,8 @@
 
 body {
   margin-top: 100px;
-  background-image: radial-gradient(circle, black 0%, rgb(58, 55, 55) 100%);
+  color: #f5f2fe;
+  background-image: radial-gradient(circle, rgb(36, 34, 34) 0%, rgb(189, 180, 180) 100%);
 }
 
 h1,
@@ -160,4 +161,7 @@ li{
 }
 .socials{
   margin-top: 40px;
+}
+.emoji{
+  animation:  10s timing-function 3s 4s left fill-mode;
 }
